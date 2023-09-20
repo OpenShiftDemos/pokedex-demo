@@ -20,5 +20,8 @@ USER 1001
 # Copy the code into the container
 COPY . /app
 
+# Copy the code into the container
+COPY . /app
+
 # Run the script when the container launches
-CMD ["python3", "redhat.py"]
+CMD ["python3", "app.py"]
